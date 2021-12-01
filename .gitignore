@@ -1,0 +1,7 @@
+/BE/artifacts
+/BE/cache
+/BE/node_modules
+/BE/.env
+
+/FE/node_modules
+TODO.txt

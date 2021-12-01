@@ -1,0 +1,110 @@
+.mintForm {
+    background-color: #282828ff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding-left: 10px;
+}
+
+.mintForm-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px 20px 20px;
+    
+}
+
+.MintForm-file {
+    border: 3px dashed white;
+    border-radius: 5px;
+    height: 120px;
+    width: 220px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MintForm-close {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: medium;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.MintForm-close > h4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.image-wrapper {
+    border-radius: 15px;
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #FD6E6A 0%, #FFC600 100%);
+    overflow: hidden;
+    padding: 5px;
+}
+
+
+.image-wrapper > img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.image-wrapper > h4 {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#text-scroll {
+    width: 100%;
+    overflow: scroll;
+}
+
+#text-gradient {
+    background: linear-gradient(135deg, #FD6E6A 0%, #FFC600 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+button, input {
+    height: 30px;
+    background: #282828ff;
+    box-shadow: 0px 0px 0px transparent;
+    border: 1px solid white;
+    text-shadow: 0px 0px 0px transparent;
+    border-radius: 5px;
+    color: white;
+}
+  
+button:hover, input:hover {
+    background: #282828ff;
+    box-shadow: 0px 0px 0px transparent;
+    border: 1px solid white;
+    text-shadow: 0px 0px 0px transparent;
+}
+  
+button:active, input:active {
+    outline: none;
+    border: none;
+}
+  
+button:focus, input:focus {
+    outline: 0;
+}
+
+
+
